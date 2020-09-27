@@ -1,0 +1,18 @@
+/* Variables */
+
+$color-background: #fff;
+$color-background-second: #7f8fa6;
+$color-text-light:#f5f6fa;
+$color-text-dark: #1e272e;
+$color-main: #fbc531;
+
+$font-text: 'Epilogue', sans-serif;
+$font-logo: 'Great Vibes', cursive;
+$font-header: 'Inconsolata', monospace;
+
+/* Global */
+
+body {
+    font-family: $font-text;
+    background: $color-background;
+}
