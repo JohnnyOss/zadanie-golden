@@ -1,7 +1,7 @@
 /* Variables */
 
 $color-background: #fff;
-$color-background-second: #7f8fa6;
+$color-background-second: #d1ccc0;
 $color-text-light:#f5f6fa;
 $color-text-dark: #1e272e;
 $color-text-gray: #808e9b;
@@ -143,6 +143,37 @@ header {
             color: $color-text-dark;
             font-weight: 700;
             margin-bottom: 15px;
+        }
+    }
+}
+
+/* Portfolio */
+
+.portfolio {
+    background: $color-background-second;
+
+    .box-portfolio {
+
+        img {
+            height: 400px;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+        h4 {
+            font-family: $font-header;
+            color: $color-text-dark;
+            font-weight: 700;
+            background: $color-background;
+            padding: 20px 20px 0px 20px;
+            margin: 0;
+        }
+
+        p {
+            font-style: italic;
+            background: $color-background;
+            margin: 0 0 40px 0;
+            padding-bottom: 20px;;
         }
     }
 }

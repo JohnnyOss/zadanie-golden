@@ -124,4 +124,31 @@ header {
   font-weight: 700;
   margin-bottom: 15px;
 }
+
+/* Portfolio */
+.portfolio {
+  background: #d1ccc0;
+}
+
+.portfolio .box-portfolio img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio .box-portfolio h4 {
+  font-family: "Inconsolata", monospace;
+  color: #1e272e;
+  font-weight: 700;
+  background: #fff;
+  padding: 20px 20px 0px 20px;
+  margin: 0;
+}
+
+.portfolio .box-portfolio p {
+  font-style: italic;
+  background: #fff;
+  margin: 0 0 40px 0;
+  padding-bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */
