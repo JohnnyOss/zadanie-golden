@@ -151,4 +151,41 @@ header {
   margin: 0 0 40px 0;
   padding-bottom: 20px;
 }
+
+/* Footer */
+footer .copyright {
+  line-height: 40px;
+}
+
+footer .social-media a {
+  font-size: 0;
+}
+
+footer .social-media a i {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 40px;
+  background: #1e272e;
+  color: #f5f6fa;
+  margin: 3px 3px;
+  transition: all 1s;
+}
+
+.fa-twitter:hover {
+  background: #1DA1F2;
+}
+
+.fa-facebook-f:hover {
+  background: #4267B2;
+}
+
+.fa-pinterest-p:hover {
+  background: #BD081C;
+}
+
+.fa-google-plus-g:hover {
+  background: #d34836;
+}
 /*# sourceMappingURL=style.css.map */

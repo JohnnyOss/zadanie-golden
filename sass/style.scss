@@ -11,6 +11,8 @@ $font-text: 'Epilogue', sans-serif;
 $font-logo: 'Great Vibes', cursive;
 $font-header: 'Inconsolata', monospace;
 
+$transition: all 1s;
+
 /* Global */
 
 body {
@@ -176,4 +178,48 @@ header {
             padding-bottom: 20px;;
         }
     }
+}
+
+/* Footer */
+
+footer {
+    
+    .copyright {
+        line-height: 40px;
+    }
+
+    .social-media {
+
+        a {
+            font-size: 0;
+
+            i{
+                height: 40px;
+                width: 40px;
+                font-size: 20px;
+                line-height: 40px;
+                border-radius: 40px;
+                background: $color-text-dark;
+                color: $color-text-light;
+                margin: 3px 3px;
+                transition: $transition;
+            }
+        }
+    }
+}
+
+.fa-twitter:hover {
+    background: #1DA1F2;
+}
+
+.fa-facebook-f:hover {
+    background: #4267B2;
+}
+
+.fa-pinterest-p:hover {
+    background: #BD081C;
+}
+
+.fa-google-plus-g:hover {
+    background: #d34836;
 }
