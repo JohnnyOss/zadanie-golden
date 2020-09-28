@@ -16,6 +16,7 @@ body {
     font-family: $font-text;
     background: $color-background;
     font-size: 16px;
+    color: $color-text-dark;
 }
 
 a {
@@ -25,7 +26,12 @@ a {
 /* Header */
 
 header {
-    background: blue;
+    background: none;
+    background-image: url('/images/background-splash.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 900;
 }
 
 .logo {
@@ -46,6 +52,51 @@ header {
         }
         a {
             color: $color-text-light;
+        }
+    }
+}
+
+/* Splash */
+
+.splash {
+    height: 90vh;
+    background-image: url('/images/background-splash.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    .splash-inner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 300px;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        color: $color-text-light;
+        text-align: center;
+        font-family: $font-header;
+
+        h1 {
+            font-size: 60px;
+            font-weight: 900;
+            word-spacing: 10px;
+            margin: 30px auto;
+        }
+
+        h2 {
+            font-size: 44px;
+            font-style: italic;
+            margin: 30px auto;
+        }
+
+        button {
+            background: $color-main;
+            color: $color-text-light;
+            font-weight: 900;
+            padding: 15px 20px;
+            margin: 10px auto;
+            width: 220px;
         }
     }
 }

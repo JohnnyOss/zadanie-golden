@@ -4,6 +4,7 @@ body {
   font-family: "Epilogue", sans-serif;
   background: #fff;
   font-size: 16px;
+  color: #1e272e;
 }
 
 a {
@@ -12,7 +13,12 @@ a {
 
 /* Header */
 header {
-  background: blue;
+  background: none;
+  background-image: url("/images/background-splash.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: 900;
 }
 
 .logo {
@@ -33,5 +39,49 @@ header {
 
 .navbar ul a {
   color: #f5f6fa;
+}
+
+/* Splash */
+.splash {
+  height: 90vh;
+  background-image: url("/images/background-splash.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.splash .splash-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 300px;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  color: #f5f6fa;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+}
+
+.splash .splash-inner h1 {
+  font-size: 60px;
+  font-weight: 900;
+  word-spacing: 10px;
+  margin: 30px auto;
+}
+
+.splash .splash-inner h2 {
+  font-size: 44px;
+  font-style: italic;
+  margin: 30px auto;
+}
+
+.splash .splash-inner button {
+  background: #fbc531;
+  color: #f5f6fa;
+  font-weight: 900;
+  padding: 15px 20px;
+  margin: 10px auto;
+  width: 220px;
 }
 /*# sourceMappingURL=style.css.map */
